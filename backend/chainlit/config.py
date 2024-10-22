@@ -24,7 +24,7 @@ from dataclasses_json import DataClassJsonMixin
 from pydantic.dataclasses import Field, dataclass
 from starlette.datastructures import Headers
 
-from backend.chainlit.data.base import BaseDataLayer
+from chainlit.data.base import BaseDataLayer
 
 from ._utils import is_path_inside
 

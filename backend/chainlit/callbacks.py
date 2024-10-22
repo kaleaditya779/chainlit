@@ -13,7 +13,7 @@ from chainlit.utils import wrap_user_function
 from fastapi import Request, Response
 from starlette.datastructures import Headers
 
-from backend.chainlit.data.base import BaseDataLayer
+from chainlit.data.base import BaseDataLayer
 
 
 @trace
